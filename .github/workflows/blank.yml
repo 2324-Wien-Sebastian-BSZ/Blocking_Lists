@@ -13,6 +13,7 @@ jobs:
     - name: Read txt files and write to _Blocker.block
       run: |
         find . -type f -name "*.txt" -exec cat {} + > _Blocker.block
+        cat _Blocker.block
     - name: Commit changes
       run: |
         git config --global user.email "wiensebastian@bs-intra.de"
