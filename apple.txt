@@ -1,0 +1,10 @@
+metrics.mzstatic.com
+iadsdk.apple.com
+metrics.icloud.com
+metrics.apple.com
+weather-analytics-events.apple.com
+notes-analytics-events.apple.com
+advertising.apple.com
+books-analytics-events.apple.com
+tr.iadsdk.apple.com
+api-adservices.apple.com
