@@ -1,0 +1,5 @@
+samsung-com.112.2o7.net
+analytics-api.samsunghealthcn.com
+samsungads.com
+nmetrics.samsung.com
+smetrics.samsung.com

@@ -1,0 +1,7 @@
+surveys.hotjar.com
+identify.hotjar.com
+events.hotjar.io
+adm.hotjar.com
+insights.hotjar.com
+script.hotjar.com
+careers.hotjar.com

@@ -1,0 +1,6 @@
+grs.hicloud.com
+logservice.hicloud.com
+metrics.data.hicloud.com
+logbak.hicloud.com
+metrics2.data.hicloud.com
+logservice1.hicloud.com

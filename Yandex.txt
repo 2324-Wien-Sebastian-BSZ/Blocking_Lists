@@ -1,0 +1,7 @@
+extmaps-api.yandex.net
+offerwall.yandex.net
+metrika.yandex.ru
+adfox.yandex.ru
+adfstat.yandex.ru
+appmetrica.yandex.ru
+advertising.yandex.ru

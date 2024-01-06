@@ -1,0 +1,4 @@
+iot-eu-logser.realme.com
+iot-logser.realme.com
+bdapi-in-ads.realmemobile.com
+bdapi-ads.realmemobile.com
