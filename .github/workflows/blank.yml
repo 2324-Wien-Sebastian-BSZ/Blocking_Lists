@@ -1,0 +1,21 @@
+name: Read txt files and write to _Blocker.txt
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  read-and-write:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Read txt files and write to _Blocker.txt
+      run: |
+        find . -type f -name "*.txt" -exec cat {} + > _Blocker.txt
+    - name: Commit changes
+      run: |
+        git config --global user.email "wiensebastian@bs-intra.de"
+        git config --global user.name "2324-Wien-Sebastian-BSZ"
+        git commit -am "Add _Blocker.txt"
+        git push
