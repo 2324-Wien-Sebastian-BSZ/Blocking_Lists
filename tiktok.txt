@@ -1,0 +1,7 @@
+analytics.tiktok.com
+ads-api.tiktok.com
+analytics-sg.tiktok.com
+log.byteoversea.com
+business-api.tiktok.com
+ads.tiktok.com
+ads-sg.tiktok.com
