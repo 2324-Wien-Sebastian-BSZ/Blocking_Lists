@@ -1,4 +1,4 @@
-name: Read txt files and write to _Blocker.txt
+name: Read txt files and write to _Blocker.block
 
 on:
   push:
@@ -10,12 +10,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Read txt files and write to _Blocker.txt
+    - name: Read txt files and write to _Blocker.block
       run: |
-        find . -type f -name "*.txt" -exec cat {} + > _Blocker.txt
+        find . -type f -name "*.txt" -exec cat {} + > _Blocker.block
     - name: Commit changes
       run: |
         git config --global user.email "wiensebastian@bs-intra.de"
         git config --global user.name "2324-Wien-Sebastian-BSZ"
-        git commit -am "Add _Blocker.txt"
+        git commit -am "Add _Blocker.block"
         git push
